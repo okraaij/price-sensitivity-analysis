@@ -15,19 +15,16 @@ An implementation of a price sensitivity analysis for a fictional oil company th
   - Question 2:
     - Use the coefficients from the Multiple Regression demand function to analyse the price elasticity of demand
     - Apply Principle Component Analysis (PCA) due to the strong multicollinearity observed in the data and hereby remove strongly correlated predictors
-    - Use a new Multiple Regression model to explore the effects of various scenarios on demand and revenue:
+    - Use a new Multiple Regression model to explore the effects of various scenarios on demand and revenue by prediction:
       - Increase or no increase (6% / 0%) of competitors's price
       - Various level of production (6.3 / 5.5 / 8.0 million tonnes) 
       - Various percentual changes in price (0.0% / 3.3% / 5.5% / 6.6%)
- 
-
-    
-- The [R implementation](/stock_price_prediction/stock_price_prediction.R) is provided for the following predictive models:
+- The [implementation](/code/) is provided for the following predictive models:
+  - Regression Tree (Python)
+  - Random Forest Regressor (Python)
+  - Multiple Regression (R)
+  - Principle Component Analysis and predicting the various scenarios (Python)
 
 ## Explanation of terms
 
-Elasticity is defined as the ratio between the percentage change in the demand and the percentage change in a specific variable (Estrin et al., 2008)
-The elasticities of a specic variable can be inelastic, elastic and unitary. If a variable is elastic, the changes that the variable produce in the demand is higher than the variation experienced in the
-variable. Variables with an elastic demand have a value higher than 1. If a variable is inelastic, the changes that the variable produce in the demand is lower than the variation experienced in the
-variable. Variables with an inelastic demand have a value lower than 1. Finally, when the elasticity is unitary, the percentage in which the variable 
-uctuates is the same as the variation in percentage of the demand. Variables with unitary demand have a value of 1 (Burkett, 2006).
+**Elasticity** is defined as the ratio between the percentage change in the demand and the percentage change in a specific variable (Estrin et al., 2008). The elasticities of a specific variable can be inelastic, elastic and unitary. If a variable is elastic, the changes that the variable produce in the demand is higher than the variation experienced in the variable. Variables with an elastic demand have a value higher than 1. If a variable is inelastic, the changes that the variable produce in the demand is lower than the variation experienced in the variable. Variables with an inelastic demand have a value lower than 1. Finally, when the elasticity is unitary, the percentage in which the variable fluctuates is the same as the variation in percentage of the demand. Variables with unitary demand have a value of 1 (Burkett, 2006).
