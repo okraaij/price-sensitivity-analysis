@@ -5,9 +5,11 @@ An implementation of a price sensitivity analysis for a fictional oil company th
 ## Overview
 
 - This repository contains a price sensitivity analysis as part of a project for the MSc Business Analytics at the University of Edinburgh. 
+
 - This project focused on:
   1. What are the most significant demand driving factors for the product? (feature selection)
   2. What is the optimal pricing response/strategy for the company without them compromising their revenues?
+
 - The approach taken:
   - Question 1:
     - Regression Trees (with 10-fold cross-validation), a Random Forest Regressor (with 10-fold cross-validation and hyperparameter tuning using GridSearch) and Multiple Regression (Backward Stepwise Selection, for both log-log and standard data)
@@ -19,6 +21,7 @@ An implementation of a price sensitivity analysis for a fictional oil company th
       - Increase or no increase (6% / 0%) of competitors's price
       - Various level of production (6.3 / 5.5 / 8.0 million tonnes) 
       - Various percentual changes in price (0.0% / 3.3% / 5.5% / 6.6%)
+
 - The [implementation](/code/) is provided for the following predictive models:
   - [Regression Tree](/code/regression-tree.py) (Python)
   - [Random Forest Regressor](/code/random-forest-regressor.py) (Python)
