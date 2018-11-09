@@ -24,7 +24,3 @@ An implementation of a price sensitivity analysis for a fictional oil company th
   - [Random Forest Regressor](/code/random-forest-regressor.py) (Python)
   - [Multiple Regression](/code/multiple-regression.R) (R)
   - [Principle Component Analysis and predicting the various scenarios](/code/pca-and-prediction.py) (Python)
-
-## Explanation of terms
-
-**Elasticity** is defined as the ratio between the percentage change in the demand and the percentage change in a specific variable (Estrin et al., 2008). The elasticities of a specific variable can be inelastic, elastic and unitary. If a variable is elastic, the changes that the variable produce in the demand is higher than the variation experienced in the variable. Variables with an elastic demand have a value higher than 1. If a variable is inelastic, the changes that the variable produce in the demand is lower than the variation experienced in the variable. Variables with an inelastic demand have a value lower than 1. Finally, when the elasticity is unitary, the percentage in which the variable fluctuates is the same as the variation in percentage of the demand. Variables with unitary demand have a value of 1 (Burkett, 2006).
