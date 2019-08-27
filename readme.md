@@ -4,7 +4,7 @@ An implementation of a price sensitivity analysis for a fictional oil company th
 
 ## Overview
 
-- This repository contains a price sensitivity analysis as part of a project for the MSc Business Analytics at the University of Edinburgh. 
+- This repository contains a price sensitivity analysis
 
 - This project focused on:
   1. What are the most significant demand driving factors for the product? (feature selection)
